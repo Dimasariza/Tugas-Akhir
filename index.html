@@ -11,14 +11,14 @@
   <body>
     <div class="body__container">
       <nav class="nav__container">
-        <div class="nav__logo">
+        <div class="nav__logo logo">
           <img src="src/namelogo.png" alt="" class="nav__logo-img" />
         </div>
         <ul class="nav__list">
           <a href="#project__section">
             <li>Project</li>
           </a>
-          <a href="#about__us">
+          <a href="#aboutUs__section">
             <li>About Us</li>
           </a>
           <a href="#authors__section">
@@ -39,21 +39,17 @@
         </div>
         <div class="project__title">
           <h1>Marine Engineering</h1>
-          <button class="btn btn-start"><a href="/components/My_Thesis.html">Start Now</a></button>
+          <a href="/components/My_Thesis.html"><button class="btn btn-start">Start Now</button></a>
         </div>
       </section>
       <!-- End of project section -->
 
+      <section class="aboutUs__section" id="aboutUs__section">
+        <h5>About Us</h5>
+        <h2>Marine Engineering</h2>
+      </section>
+
       <section class="authors__section" id="authors__section">
-        <div class="author__section Dimas">
-          <div class="author__section-desc">
-            <h5>Mahasiswa</h5>
-            <h2>Roganda Dimas Ariza</h2>
-          </div>
-          <div class="author__section-img">
-            <img src="src/me_7-bg.png" alt="" />
-          </div>
-        </div>
         <div class="author__section Dosbing">
           <div class="author__section-desc">
             <h5>Dosen Pembimbing</h5>
@@ -61,6 +57,15 @@
           </div>
           <div class="author__section-img">
             <img src="src/Pak_indra_ranu.jpg" alt="" />
+          </div>
+        </div>
+        <div class="author__section Dimas">
+          <div class="author__section-desc">
+            <h5>Mahasiswa</h5>
+            <h2>Roganda Dimas Ariza</h2>
+          </div>
+          <div class="author__section-img">
+            <img src="src/me_7-bg.png" alt="" />
           </div>
         </div>
       </section>
@@ -74,27 +79,29 @@
       </div>
 
       <footer class="footer__section" id="footer__section">
-        <div class="footer__logo">
-          <img src="src/namelogo.png" alt="" />
-        </div>
-        <div class="footer__list">
-          <ul>
-            <a href="">
-              <li>Project</li>
-            </a>
-            <a href="">
-              <li>About</li>
-            </a>
-            <a href="">
-              <li>Author</li>
-            </a>
-            <a href="">
-              <li>Contact</li>
-            </a>
-          </ul>
-        </div>
-        <div class="footer__policy">
-          <span>&copy 2022 Dimas Ariza</span>
+        <div class="footer__wrap">
+          <div class="footer__logo logo">
+            <img src="src/namelogo.png" alt="" />
+          </div>
+          <div class="footer__list">
+            <ul>
+              <a href="#project__section">
+                <li>Project</li>
+              </a>
+              <a href="#aboutUs__section">
+                <li>About</li>
+              </a>
+              <a href="#author__section">
+                <li>Author</li>
+              </a>
+              <a href="#contact__section">
+                <li>Contact</li>
+              </a>
+            </ul>
+          </div>
+          <div class="footer__policy">
+            <span>&copy 2022 Dimas Ariza</span>
+          </div>
         </div>
       </footer>
     </div>
