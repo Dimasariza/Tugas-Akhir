@@ -1,90 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/src/icon2.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Roganda's Thesis</title>
-</head>
-<body>
-  <nav class="nav__container">
-    <div class="nav__logo">
-      <img src="/src/namelogo.png" alt="" class="nav__logo-img">
-    </div>
-    <ul class="nav__list">
-      <a href="">
-        <li>Project</li>
-      </a>
-      <a href="">
-        <li>About Us</li>
-      </a>
-      <a href="">
-        <li>Author</li>
-      </a>
-      <a href="">
-        <li>Contact</li>
-      </a>
-    </ul>
-  </nav>
-  <!-- End of nav section -->
-
-  <section class="project__section" id="project__section">
-    <video autoplay loop>
-      <source src="/src/Autonomous ship.mp4">
-    </video>
-    <div class="project__title">
-      <h1>Marine Engineering</h1>
-    </div>
-    <button class="btn btn-start">Start Now</button>
-  </section>
-  <!-- End of project section -->
-
-  <section class="author__section" id="author__section">
-    <div class="author__section-Dimas">
-      <div class="author__section-img">
-        <img src="" alt="">
-      </div>
-      <div class="author__section-desc">
-        <h5>Mahasiswa</h5>
-        <h2>Roganda Dimas Ariza</h2>
-      </div>
-    <div class="author__section-Dosbing">
-      <div class="author__section-desc">
-        <h5>Dosen Pembimbing</h5>
-        <h2>Dr. Indra Ranu Kusuma, ST, M.Sc.</h2>
-        <div class="author__section-img">
-          <img src="/src/Pak_indra_ranu.jpg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="src/icon2.png" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Roganda's Thesis</title>
+  </head>
+  <body>
+    <div class="body__container">
+      <nav class="nav__container">
+        <div class="nav__logo">
+          <img src="src/namelogo.png" alt="" class="nav__logo-img" />
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- End of author section -->
+        <ul class="nav__list">
+          <a href="#project__section">
+            <li>Project</li>
+          </a>
+          <a href="#about__us">
+            <li>About Us</li>
+          </a>
+          <a href="#authors__section">
+            <li>Author</li>
+          </a>
+          <a href="#contact__section">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+      <!-- End of nav section -->
 
-  <footer class="footer__section" id="footer__section">
-    <div class="footer__logo">
-      <img src="" alt="">
+      <section class="project__section" id="project__section">
+        <div class="video__bg-container">
+          <video class="video__bg" autoplay loop>
+            <source src="src/Autonomous ship.mp4" />
+          </video>
+        </div>
+        <div class="project__title">
+          <h1>Marine Engineering</h1>
+          <button class="btn btn-start"><a href="/components/My_Thesis.html">Start Now</a></button>
+        </div>
+      </section>
+      <!-- End of project section -->
+
+      <section class="authors__section" id="authors__section">
+        <div class="author__section Dimas">
+          <div class="author__section-desc">
+            <h5>Mahasiswa</h5>
+            <h2>Roganda Dimas Ariza</h2>
+          </div>
+          <div class="author__section-img">
+            <img src="src/me_7-bg.png" alt="" />
+          </div>
+        </div>
+        <div class="author__section Dosbing">
+          <div class="author__section-desc">
+            <h5>Dosen Pembimbing</h5>
+            <h2>Dr. Indra Ranu Kusuma, ST, M.Sc.</h2>
+          </div>
+          <div class="author__section-img">
+            <img src="src/Pak_indra_ranu.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- End of author section -->
+
+      <div class="contact__section" id="contact__section">
+        <div class="social__media"></div>
+        <input type="text" />
+        <input type="text" />
+        <form action=""></form>
+      </div>
+
+      <footer class="footer__section" id="footer__section">
+        <div class="footer__logo">
+          <img src="src/namelogo.png" alt="" />
+        </div>
+        <div class="footer__list">
+          <ul>
+            <a href="">
+              <li>Project</li>
+            </a>
+            <a href="">
+              <li>About</li>
+            </a>
+            <a href="">
+              <li>Author</li>
+            </a>
+            <a href="">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
+        <div class="footer__policy">
+          <span>&copy 2022 Dimas Ariza</span>
+        </div>
+      </footer>
     </div>
-    <div class="footer__list">
-      <ul>
-        <a href="">
-          <li>Project</li>
-        </a>
-        <a href="">
-          <li>About</li>
-        </a>
-        <a href="">
-          <li>Author</li>
-        </a>
-        <a href="">
-          <li>Contact</li>
-        </a>
-      </ul>
-    </div>
-    <div class="footer__policy">
-      <span>&copy 2022 Dimas Ariza</span>
-    </div>
-  </footer>
-</body>
+  </body>
 </html>
